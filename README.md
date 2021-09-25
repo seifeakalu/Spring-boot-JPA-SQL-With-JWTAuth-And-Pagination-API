@@ -126,3 +126,6 @@ POST /message/receiver_id
         "lastName": "akalu"
       }
     }
+### Register User Response
+   Follow the above technique to delete and update data.
+   make sure to pass token as request header 
