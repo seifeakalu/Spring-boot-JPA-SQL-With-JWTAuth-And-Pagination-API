@@ -80,17 +80,9 @@ POST /message/receiver_id
 
  message Response Content:
    {
-    "id": 12,
-    "subject": "new message",
-    "message": "Hello from test message",
-    "sender": null,
+   
     "receiver": {
-        "id": 1,
-        "userName": "seo",
-        "password": "$2a$10$Lcl28upfITuYXAFS6vfVwOWy8QDR/RLabpha9AariVgJWeyy/d5du",
-        "email": "ak@ak.com",
-        "firstName": "seifedin",
-        "lastName": "akalu"
+       
     }
   }
 
