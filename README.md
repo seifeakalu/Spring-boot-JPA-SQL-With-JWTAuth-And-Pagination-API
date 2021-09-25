@@ -79,10 +79,10 @@ POST /message/receiver_id
     Content-Length: 1
 
  message Response Content:
-   {
+   [{
     "receiver": {
     }
-  }
+  }]
 
 
 
