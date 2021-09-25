@@ -9,8 +9,8 @@ To register message, This API Lets you register user and authenticate with JWT
 `pom.xml` containes necessary dependency of this project.
 
 `application.properties` containes database connection
-documentation below.
 
+## POST/DELETE/PUT/GET Request of The API
 
 JWT PlayGround : https://jwt.io/
 
@@ -21,9 +21,9 @@ POST /users/
      ContentType: application/json 
      URI: http://localhost:9192/users/   
      
-     Sample Login Post Body Content:
+     Sample Register user Post Body Content:
      {    
-	    "userName": "seoAk47",
+	 "userName": "seoAk47",
         "password": "123",
         "firstName": "seifedin",
         "lastName": "ak47",
