@@ -43,7 +43,7 @@ POST /users/
 POST /users/authenticate
    
      ContentType: application/json 
-     URI: http://localhost:9192/users/ authenticate  
+     URI: http://localhost:9192/users/authenticate  
      
      Sample Login Post Body Content:
      {    
@@ -56,7 +56,7 @@ POST /users/authenticate
     Content-Type: application/json
     Content-Length: 1
 
-    [User]
+    [Token]
 
 ### Request
 
