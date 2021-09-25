@@ -80,9 +80,7 @@ POST /message/receiver_id
 
  message Response Content:
    {
-   
     "receiver": {
-       
     }
   }
 
