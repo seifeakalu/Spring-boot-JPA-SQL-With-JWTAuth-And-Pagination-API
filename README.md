@@ -14,7 +14,7 @@ documentation below.
 
 JWT PlayGround : https://jwt.io/
 
-### Request
+### Register User Request
 
 POST /users/
    
@@ -30,15 +30,33 @@ POST /users/
         "email": "test@test.com"    
     }
    
-### Response
+### Register User Response
 
     Content-Type: application/json
     Content-Length: 1
 
     [User]
     
-    
-    ## Register User account
+ 
+ ### Login Request
+
+POST /users/authenticate
+   
+     ContentType: application/json 
+     URI: http://localhost:9192/users/ authenticate  
+     
+     Sample Login Post Body Content:
+     {    
+	"userName": "seoAk47",
+        "password": "123",  
+    }
+   
+### Login Response
+
+    Content-Type: application/json
+    Content-Length: 1
+
+    [User]
 
 ### Request
 
