@@ -61,7 +61,7 @@ POST /users/authenticate
 ### Send message Request
 
 POST /message/receiver_id
-     Request Header: Authorization: Bearer {token}
+     Authorization: Bearer {token}
      ContentType: application/json 
      URI: http://localhost:9192/message/1 
      
