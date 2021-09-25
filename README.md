@@ -107,8 +107,8 @@ POST /message/receiver_id
 
     {
     "id": 1,
-    "subject": "seo",
-    "message": "yo yo yo ll",
+    "subject": "Test",
+    "message": "test message ",
     "sender": {
         "id": 3,
         "userName": "seo1",
