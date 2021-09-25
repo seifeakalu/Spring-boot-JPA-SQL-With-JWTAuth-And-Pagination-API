@@ -16,14 +16,14 @@ JWT PlayGround : https://jwt.io/
 
 ### Register User Request
 
-POST /users/
+     POST /users/
    
      ContentType: application/json 
      URI: http://localhost:9192/users/   
      
      Sample Register user Post Body Content:
      {    
-	 "userName": "seoAk47",
+	"userName": "seoAk47",
         "password": "123",
         "firstName": "seifedin",
         "lastName": "ak47",
