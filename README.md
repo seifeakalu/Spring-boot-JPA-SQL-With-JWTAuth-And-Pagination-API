@@ -18,8 +18,7 @@ JWT PlayGround : https://jwt.io/
 
 POST /users/
    
-   'Accept: application/json' http://localhost:9192/users/
-   'Body { "userName": "seoAk47", "password": "123", "firstName": "seifedin",  "lastName": "ak47", "email": "test@test.com" }
+      application/json' http://localhost:9192/users/   { "userName": "seoAk47", "password": "123", "firstName": "seifedin",  "lastName": "ak47", "email": "test@test.com" }
    
 ### Response
 
