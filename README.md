@@ -48,7 +48,7 @@ POST /users/authenticate
      Sample Login Post Body Content:
      {    
 	    "userName": "seoAk47",
-           "password": "123",  
+            "password": "123",  
     }
    
 ### Login Response
@@ -78,6 +78,7 @@ POST /message/receiver_id
     Content-Type: application/json
     Content-Length: 1
 
+ message Response Content:
    {
     "id": 12,
     "subject": "new message",
