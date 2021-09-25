@@ -1,4 +1,17 @@
-# spring-security-jwt-example
+# REST API example application
+
+This is a Rest API which let you send message to user based on ORM Model Relation, 
+To register message, This API Lets you register user and authenticate with JWT
+
+    Open the project with STS IDE and Run the application,
+    STS will install necessary dependency for this API 
+
+`pom.xml` containes necessary dependency of this project.
+
+`application.properties` containes database connection
+documentation below.
+
+
 
 Reference : https://jwt.io/
 
