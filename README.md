@@ -112,7 +112,7 @@ POST /message/receiver_id
     "sender": {
         "id": 3,
         "userName": "seo1",
-        "password": "kk",
+        "password": "$2a$10$Lcl28upfITuYXAFS6vfVwOWy8QDR/RLabpha9AariVgJWeyy/d5du",
         "email": "kk",
         "firstName": null,
         "lastName": null
