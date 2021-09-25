@@ -38,7 +38,7 @@ POST /users/
     [User]
     
  
- ### Login Request
+### Login Request
 
 POST /users/authenticate
    
@@ -47,8 +47,8 @@ POST /users/authenticate
      
      Sample Login Post Body Content:
      {    
-	"userName": "seoAk47",
-        "password": "123",  
+	    "userName": "seoAk47",
+           "password": "123",  
     }
    
 ### Login Response
@@ -58,7 +58,42 @@ POST /users/authenticate
 
     [Token]
 
-### Request
+### Send message Request
+
+POST /message/receiver_id
+     Request Header: Authorization: Bearer {token}
+     ContentType: application/json 
+     URI: http://localhost:9192/message/1 
+     
+     Sample Send message Body Content:
+     {  
+	"subject": "new message",
+        "message": "Hello from test message"
+    }
+   
+### Message Response
+
+    Content-Type: application/json
+    Content-Length: 1
+
+   {
+    "id": 12,
+    "subject": "new message",
+    "message": "Hello from test message",
+    "sender": null,
+    "receiver": {
+        "id": 1,
+        "userName": "seo",
+        "password": "$2a$10$Lcl28upfITuYXAFS6vfVwOWy8QDR/RLabpha9AariVgJWeyy/d5du",
+        "email": "ak@ak.com",
+        "firstName": "seifedin",
+        "lastName": "akalu"
+    }
+}
+
+
+
+### Send Message Request
 
 `POST authenticate`
 
