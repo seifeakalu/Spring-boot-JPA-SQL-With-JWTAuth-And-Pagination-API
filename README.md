@@ -96,9 +96,9 @@ POST /message/receiver_id
 
 ### Get Message By ID
 
-    `GET Message by ID  /message/message_id`
+    GET Message by ID  /message/message_id`
     Authorization: Bearer {token}
-    curl -i -H 'Accept: application/json' http://localhost:9192/message/1
+    Accept: application/json' http://localhost:9192/message/1
 
 ### Response
 
