@@ -94,15 +94,35 @@ POST /message/receiver_id
 
 
 
-### Send Message Request
+### Get Message By ID
 
-`POST authenticate`
-
-    curl -i -H 'Accept: application/json' http://localhost:9192/users/authenticate
+`GET Message by ID  /message/message_id`
+    Authorization: Bearer {token}
+    curl -i -H 'Accept: application/json' http://localhost:9192/message/1
 
 ### Response
 
     Content-Type: application/json
     Content-Length: 1
 
-    [User]
+    {
+    "id": 1,
+    "subject": "seo",
+    "message": "yo yo yo ll",
+    "sender": {
+        "id": 3,
+        "userName": "seo1",
+        "password": "kk",
+        "email": "kk",
+        "firstName": null,
+        "lastName": null
+    },
+    "receiver": {
+        "id": 1,
+        "userName": "seo",
+        "password": "$2a$10$Lcl28upfITuYXAFS6vfVwOWy8QDR/RLabpha9AariVgJWeyy/d5du",
+        "email": "ak@ak.com",
+        "firstName": "seifedin",
+        "lastName": "akalu"
+      }
+    }
