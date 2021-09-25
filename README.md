@@ -82,7 +82,6 @@ POST /message/receiver_id
     "id": 12,
     "subject": "new message",
     "message": "hello from test message",
-    "sender": null,
     "receiver": {
         "id": 1,
         "userName": "seo",
