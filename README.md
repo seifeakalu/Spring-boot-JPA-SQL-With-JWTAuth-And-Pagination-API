@@ -78,11 +78,11 @@ POST /message/receiver_id
     Content-Type: application/json
     Content-Length: 1
 
- message Response Content:
-   [{
-    "receiver": {
-    }
-  }]
+    message Response Content:
+     [{
+      "receiver": {
+      }
+     }]
 
 
 
