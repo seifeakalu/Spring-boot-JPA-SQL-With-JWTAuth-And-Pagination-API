@@ -1,6 +1,6 @@
 ## REST API Messaging Application with JWT-JPA-SQL-ORM
 
-This is a Rest API that let you send message to user based on ORM Model Relation, 
+This is a Rest API that let you send message to user based on ORM Model Relation. 
 To register message, This API Lets you signup user and authenticate with JWT
 
     Open the project with STS IDE and Run the application,
