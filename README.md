@@ -128,4 +128,4 @@ POST /message/receiver_id
     }
 ### Delete and Update Message
    Follow the above technique to delete and update data.
-   make sure to pass token as request header 
+   make sure to pass token as a request header 
