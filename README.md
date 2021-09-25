@@ -14,7 +14,7 @@ documentation below.
 
 JWT PlayGround : https://jwt.io/
 
-### Request
+# Request
 
 POST /users/
    
