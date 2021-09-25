@@ -12,8 +12,7 @@ To register message, This API Lets you register user and authenticate with JWT
 documentation below.
 
 
-
-Reference : https://jwt.io/
+JWT PlayGround : https://jwt.io/
 
 ## Register User account
 
