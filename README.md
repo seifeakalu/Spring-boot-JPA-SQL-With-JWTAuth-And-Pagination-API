@@ -78,11 +78,20 @@ POST /message/receiver_id
     Content-Type: application/json
     Content-Length: 1
 
-    message Response Content:
-     [{
-      "receiver": {
+    {
+    "id": 12,
+    "subject": "new message",
+    "message": "hello from test message",
+    "sender": null,
+    "receiver": {
+        "id": 1,
+        "userName": "seo",
+        "password": "$2a$10$Lcl28upfITuYXAFS6vfVwOWy8QDR/RLabpha9AariVgJWeyy/d5du",
+        "email": "ak@ak.com",
+        "firstName": "seifedin",
+        "lastName": "akalu"
+         }
       }
-     }]
 
 
 
