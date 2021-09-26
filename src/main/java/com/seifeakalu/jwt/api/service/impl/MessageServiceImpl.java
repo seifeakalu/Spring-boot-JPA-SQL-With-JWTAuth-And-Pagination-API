@@ -46,15 +46,13 @@ public class MessageServiceImpl implements MessageService{
 
 	@Override
 	public Message updateMessage(Message message, long id) {
-		
-		// we need to check whether employee with given id is exist in DB or not
+	
 		Message existingMessage = messageRepository.findById(id).orElseThrow(
 				() -> new ResourceNotFoundException("Message", "Id", id)); 
 		System.out.println(message.getSubject());
 		existingMessage.setMessage(message.getMessage());
 		existingMessage.setSubject(message.getSubject());
 		//existingMessage.setSender_id(message.getEmail());
-		// save existing employee to DB
 		messageRepository.save(existingMessage);
 		return existingMessage;
 	}
@@ -62,9 +60,9 @@ public class MessageServiceImpl implements MessageService{
 	@Override
 	public void deleteMessage(long id) {
 		
-		// check whether a employee exist in a DB or not
+	
 		messageRepository.findById(id).orElseThrow(() -> 
-								new ResourceNotFoundException("Employee", "Id", id));
+								new ResourceNotFoundException("Message", "Id", id));
 		messageRepository.deleteById(id);
 	}
 	
